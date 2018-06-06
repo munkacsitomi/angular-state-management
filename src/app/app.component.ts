@@ -15,6 +15,9 @@ import { Component } from '@angular/core';
             <div class="column">
               <app-sibling></app-sibling>
             </div>
+            <div class="column">
+              <app-another></app-another>
+            </div>
           </div>
         </div>
       </section>

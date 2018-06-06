@@ -6,7 +6,6 @@ import { SharedService } from '../../services/shared.service';
   template: `
     <h2 class="title">Sibling Component</h2>
     <p class="has-text-primary">{{ message }}</p>
-    <label class="label" for="message">Type here: </label>
     <input class="input is-primary" type="text" name="message" (keyup)="newMessage($event)">
   `,
   styles: []
