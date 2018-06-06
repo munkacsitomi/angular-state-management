@@ -3,10 +3,24 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>Angular State Management Service</h1>
-    <p>This is a simple example how to share state between components with RxJS in an Angular service.</p>
-    <app-parent></app-parent>
-    <app-sibling></app-sibling>
+    <div class="site">
+      <app-header></app-header>
+
+      <section class="section site-content">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <app-parent></app-parent>
+            </div>
+            <div class="column">
+              <app-sibling></app-sibling>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <app-footer></app-footer>
+    </div>
   `,
   styles: []
 })

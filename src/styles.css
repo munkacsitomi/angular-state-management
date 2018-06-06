@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bulma/css/bulma.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
